@@ -1,0 +1,32 @@
+{
+  "type": "native",
+  "devices": {
+    "GalaxyJ7-W": {}
+  },
+  "repetitions": 3,
+  "apps": [
+    "com.android.chrome"
+  ],
+  "duration": 10000,
+  "profilers": {
+    "batterymanager": {
+      "experiment_aggregation": "default",
+      "sample_interval": 100,
+      "data_points": [
+        "BATTERY_PROPERTY_CURRENT_NOW", "EXTRA_VOLTAGE"
+      ],
+      "persistency_strategy": [
+        "adb_log"
+      ]
+    }
+  },
+  "scripts": {
+    "before_experiment": "Scripts/before_experiment.py",
+    "before_run": "Scripts/before_run.py",
+    "after_launch": "Scripts/after_launch.py",
+    "before_close": "Scripts/before_close.py",
+    "after_run": "Scripts/after_run.py",
+    "after_experiment": "Scripts/after_experiment.py"
+  },
+  "time_between_run": 5000
+}
