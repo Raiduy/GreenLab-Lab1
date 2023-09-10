@@ -57,7 +57,7 @@
 - developer options: https://developer.android.com/studio/debug/dev-options
 - adb: https://developer.android.com/studio/command-line/adb
 - adb logcat: https://developer.android.com/studio/command-line/logcat
-- wireless connection: https://developer.android.com/tools/adb#wireless
+- wireless connection: https://developer.android.com/tools/adb#wireless or [wifi connect shell script](./resources/adb_connect_wifi.sh)
 - AndroidRunner: https://github.com/S2-group/android-runner
 - apks: https://apkpure.com/
 - BatteryManager-companion: https://github.com/S2-group/batterymanager-companion
@@ -65,4 +65,6 @@
 - monkeyrunner: https://android.googlesource.com/platform/sdk/+/ics-mr0/monkeyrunner?autodive=0%2F%2F
 
 ## ExperimentRunner
+- ExperimentRunner: https://github.com/S2-group/experiment-runner
+- PowerJoular: https://gitlab.com/joular/powerjoular
 
