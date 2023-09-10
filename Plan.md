@@ -36,17 +36,24 @@
     * `--progress` flag
 * Profilers
     * BatteryManager (with companion)
+    * Read the [BatteryManager README](https://github.com/S2-group/android-runner/tree/master/AndroidRunner/Plugins/batterymanager#readme)
+    * Troubleshooting BatteryManager
 
 # AndroidRunner demo (15 min)
-* FORK AndroidRunner
+* FORK [AndroidRunner](https://github.com/S2-group/android-runner)
 * Install AndroidRunner
 * [Before experiment checklist](./resources/android_exeriment_checklist.md)
 
 # ExperimentRunner demo (15 min)
+* FORK [ExperimentRunner](https://github.com/S2-group/experiment-runner)
+* Install ExperimentRunner
+* Install [PowerJoular](https://gitlab.com/joular/powerjoular) (will provide you energy data)
+* Read the PowerJoular README in ExperimentRunner ([here](https://github.com/S2-group/experiment-runner/tree/master/examples/linux-powerjoular-profiling))
 
 
 
-## Useful links:
+# Useful links
+## AndroidRunner
 - developer options: https://developer.android.com/studio/debug/dev-options
 - adb: https://developer.android.com/studio/command-line/adb
 - adb logcat: https://developer.android.com/studio/command-line/logcat
@@ -56,4 +63,6 @@
 - BatteryManager-companion: https://github.com/S2-group/batterymanager-companion
 - BatteryManager-companion apk: https://github.com/S2-group/batterymanager-companion/releases/tag/v1.0.0
 - monkeyrunner: https://android.googlesource.com/platform/sdk/+/ics-mr0/monkeyrunner?autodive=0%2F%2F
+
+## ExperimentRunner
 
