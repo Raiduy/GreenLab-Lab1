@@ -25,7 +25,7 @@
 * Wireless connection
 * Troubleshooting
 
-# AndroidRunner how does it work? (20 min)
+# AndroidRunner how does it work? (15 min)
 * Files
     * config files
         * `run_stopping_condition`
@@ -35,28 +35,14 @@
     * output files
     * `--progress` flag
 * Profilers
-    * BatteryManager-companion
-    * [maybe others too?]
+    * BatteryManager (with companion)
 
-# AndroidRunner demo (45 min)
+# AndroidRunner demo (15 min)
 * FORK AndroidRunner
 * Install AndroidRunner
-* Before experiment checklist
-    * Device:
-        * Enable Developer options
-        * Enable USB debugging
-        * Stay awake (Dev options)
-        * Minimum brightness (we're testing battery consumption, not screen consumption)
-        * Disable/turn off notifications and updates for all services (i.e., Google Play Services, Google Play Store, etc.)
-        * Disable app checking over adb (Dev options)
-        * Turn off all useless settings (i.e., NFC, Bluetooth, location, etc.)
-        * Turn off any apps running
-        * Set up USB/WiFi connection
-    * Computer:
-        * add your device ID to the `devices.json`
-        * Set up `config.json` file
-        * activate virtual environment
+* [Before experiment checklist](./resources/android_exeriment_checklist.md)
 
+# ExperimentRunner demo (15 min)
 
 
 
@@ -70,6 +56,4 @@
 - BatteryManager-companion: https://github.com/S2-group/batterymanager-companion
 - BatteryManager-companion apk: https://github.com/S2-group/batterymanager-companion/releases/tag/v1.0.0
 - monkeyrunner: https://android.googlesource.com/platform/sdk/+/ics-mr0/monkeyrunner?autodive=0%2F%2F
-
-
 
