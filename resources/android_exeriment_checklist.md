@@ -12,3 +12,4 @@
 - [ ] add your device ID to the `devices.json`
 - [ ] Set up `config.json` file
 - [ ] activate virtual environment
+
