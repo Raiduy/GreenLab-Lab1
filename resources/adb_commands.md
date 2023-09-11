@@ -44,6 +44,12 @@ Shell into the device
 adb shell
 ```
 
+Kill the server
+```bash
+adb kill-server
+```
+
+
 Wireless connection (device_ip can be found under WIFI in the device settings) (will not work on university network)
 ```bash
 adb tcpip 5555
