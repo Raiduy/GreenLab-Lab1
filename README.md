@@ -10,7 +10,7 @@
     * ADB Overview
         * install, run, uninstall, logcat, pull, push, shell among others
 
-## ADB demo
+## [ADB demo](./resources/adb_commands.md)
 * Set up device
 * Connect to device
 * Install an app
@@ -30,9 +30,10 @@
         * `usb_handler` + caveats (RasPI 4B)
     * script files (and order)
     ![AndroidRunner scripts order](./resources/AndroidRunner_scripts_order.png)
-    * interaction files
+    * interaction files ([MonkeyRunner Project](https://android.googlesource.com/platform/sdk/+/ics-mr0/monkeyrunner?autodive=0%2F%2F) and [MonkeyRunner How To Use](https://www.youtube.com/watch?v=mk67VLUjwlA&list=PLLbZZOioDh3P50WcYbuBMZEJokJH3ZONr&index=7&ab_channel=EricZielinski))
     * output files
     * `--progress` flag
+    * use `tmux` so that you can detach from the session and leave it running
 * Profilers
     * BatteryManager (with companion)
     * Read the [BatteryManager README](https://github.com/S2-group/android-runner/tree/master/AndroidRunner/Plugins/batterymanager#readme)
@@ -60,5 +61,6 @@
 - monkeyrunner: https://android.googlesource.com/platform/sdk/+/ics-mr0/monkeyrunner?autodive=0%2F%2F
 
 ## ExperimentRunner
+- Last year's ExperimentRunner tutorial: https://canvas.vu.nl/files/5312102/download
 - ExperimentRunner: https://github.com/S2-group/experiment-runner
 - PowerJoular: https://gitlab.com/joular/powerjoular
