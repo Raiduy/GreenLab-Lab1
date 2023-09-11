@@ -5,7 +5,7 @@
 * Tools (3 min)
     * Profilers explained
         * Monsoon (hardware)
-        * BatteryManager-companion (software)
+        * BatteryManager (software)
     * ADB Overview
         * install, run, uninstall, logcat, pull, push, shell among others
     * AndroidRunner Overview
